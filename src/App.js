@@ -91,7 +91,7 @@ function App() {
             </div>
           </div>
           <button className="ui button primary" type="submit">Generate Link</button>
-          <p style={{ color: '#AAA' }}><small><i>* Check your console after pressing "Generate Link" button</i></small></p>
+          <p style={{ color: '#AAA' }}><small><i>* Check your browser console after pressing "Generate Link" button</i></small></p>
         </form>
         <div className="ui divider" />
         <h3>Get your token from Local Storage browser:</h3>
