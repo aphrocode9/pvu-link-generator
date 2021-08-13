@@ -22,7 +22,8 @@ function App() {
         method: 'get',
         url: `https://backend-farm.plantvsundead.com/farms/other/${address}?limit=10&offset=${(page - 1) * 10}`,
         headers: { 
-          'Authorization': `Bearer ${token}`
+          'Authorization': `Bearer ${token}`,
+          'X-Forwarded-For': 'asdfgd'
         }
       }
       
