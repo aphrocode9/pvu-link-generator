@@ -496,7 +496,7 @@
                     day: 1e3,
                     price: 0,
                     status: null,
-                    startingPrice: 0,
+                    startingPrice: 0.01,
                     isEndTransaction: !1,
                     priceError: null
                 }
@@ -544,7 +544,7 @@
                                     t.ownerId = o.data.ownerId || o.data.buyerId,
                                     t.tokenId = o.data.tokenId,
                                     t.status = o.data.status,
-                                    t.startingPrice = 0,
+                                    t.startingPrice = 0.01,
                                     t.twoDigit = Number(t.plantId.substring(6, 8)),
                                     c = o.data.plant,
                                     l = c.animUrl,
@@ -648,7 +648,7 @@
                                     Object(m.k)(r, t.walletAddress, t.tokenId, o, o, c);
                                 case 16:
                                     return t.status = 1,
-                                    t.startingPrice = 0,
+                                    t.startingPrice = 0.01,
                                     t.isLoading = !1,
                                     t.dialogSell = !1,
                                     t.txSuccessDialog = !0,
@@ -665,7 +665,7 @@
                                     Object(m.k)(r, t.walletAddress, t.tokenId, o, o, c);
                                 case 28:
                                     t.status = 1,
-                                    t.startingPrice = 0,
+                                    t.startingPrice = 0.01,
                                     t.isLoading = !1,
                                     t.dialogSell = !1,
                                     t.txSuccessDialog = !0;
